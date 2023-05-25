@@ -1,0 +1,78 @@
+body {
+    margin: 0; /*remove the defatult seeting*/
+    padding: 0;
+    background-image: url("./img/lukasz-lada-LtWFFVi1RXQ-unsplash.jpg"); 
+    background-size: 100%;
+}
+
+
+
+.head {
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+    margin-left: -40%;
+    margin-right: -55%;
+
+}
+
+/* style spaceing between city to city search history */
+.history-item {
+    margin: 5px 0;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+
+/* add style to current wather*/
+#current-weather {
+    background-color: bisque;
+    border: solid;
+    font-weight: bold;
+}
+
+/* style my seacher history vertical instead rizontal*/
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+    padding-right: 155px;
+    line-height: 35px;
+}
+
+
+
+#forecast {
+    background-color: lightskyblue;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.col-4 {
+    margin-left: 0;
+}
+
+/* style when im review on different devices*/
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin-left: -20%;
+        margin-right: -20%;
+    }
+
+    .col-4 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .vertical-list {
+        padding-right: 0;
+    }
+
+    #forecast {
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
