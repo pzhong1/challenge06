@@ -23,5 +23,6 @@ Mock-Up
 The following image shows the web application's appearance and functionality:  
 
 A screenshot displays a weather dashboard that includes a search function and a five-day forecast.  
+![weather dashboard](https://github.com/pzhong1/challenge06/assets/123424361/c0bddac0-a9f0-4ade-abf6-b0ca75aa35c5)
 
 
