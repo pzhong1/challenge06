@@ -1,3 +1,12 @@
+
+## The URL of the deployed application
+
+
+
+## The URL of the GitHub repository that contains your code.
+
+
+
 ## Task
 create a website using open weather api sever to get weather data, when user enter city name then  
 the api will get the weather info and display to user   
